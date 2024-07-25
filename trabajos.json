@@ -1,6 +1,6 @@
 [
     {   
-        "img" : "",
+        "img" : "./public/imgs/sheetspy.png",
         "titulo": "Google sheets con Pyhton",
         "descripcion": "",
         "fuente": "Wallapop",
@@ -8,7 +8,7 @@
         "enlace": ""
     },
     {   
-        "img" : "",
+        "img" : "./public/imgs/clonado.png",
         "titulo": "Clonación de WEB",
         "descripcion": "Parra un trabajo de clase, el cliente me contacta para copiar una web para sus deberes.",
         "fuente": "Wallapop",
@@ -24,7 +24,7 @@
         "enlace": ""
     },
     {   
-        "img" : "",
+        "img" : "./public/imgs/ajax.jfif",
         "titulo": "Implementación AJAX en Python ",
         "descripcion": "Cliente me contactó para revisar su proyecto TFG, al cual le ayude con la implementación dicha ",
         "fuente": "Wallapop",
@@ -32,7 +32,7 @@
         "enlace": ""
     },
     {   
-        "img" : "",
+        "img" : "./public/imgs/powerpy.jfif",
         "titulo": "PowerPoints",
         "descripcion": "Me solicitan un script para poder crear Diapositivas adicionales, al powerpoint original, consistia en leer ciertas palabras y ir añadiendo la imagen asiganda a la palabra y crear las Diapositivas",
         "fuente": "Wallapop",
@@ -40,12 +40,12 @@
         "enlace": ""
     },
     {   
-        "img" : "",
+        "img" : "./public/imgs/graficas.png",
         "titulo": "Graficás de datos",
-        "descripcion": "",
-        "fuente": "",
-        "fecha": "",
-        "enlace": ""
+        "descripcion": "Alumno me pide ayuda para poder acabar trabajo de clase. En el que consiste en sacar gráficas de Excel",
+        "fuente": "Wallapop",
+        "fecha": "22/06/24",
+        "enlace": "https://github.com/karlos-kon-ka/AnalisisdeDatos"
     }
    
     

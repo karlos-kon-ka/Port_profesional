@@ -1,26 +1,30 @@
-
+import { motion } from 'framer-motion';
+import React from 'react';
 
 function Presentacion() {
   return (
-    <section className='presentacion'>
-        <h1>Carlos Pérez</h1>
-        <h2>FRONTEND DEVELOPER. </h2>
-        <br/>
-        <p>Gracias por estar aquí. 
+    <motion.section
+      className='presentacion'
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+    >
+      <h1>Carlos Pérez</h1>
+      <h2>FRONTEND DEVELOPER.</h2>
+      <br />
+      <p>Gracias por estar aquí.</p>
+      <div className='pre-parrafos'>
+        <p>
+          Empecé en el mundo SOFTWARE por la vida académica.
+          Y a día de hoy la continuo con más de 1 año de experiencia como FREELANCER.
         </p>
-        <div className='pre-parrafos'>
-        
-            <p>Empecé en el mundo SOFTWARE por la vida académica.
-                Y a día de hoy la continuo con más de 1 año de experiencia como FREELANCER.
-            </p>
-            <p>El primer contácto lo tuve con PYTHON, los primeros scripts, proyectos, trabajos etc... <br/>
-            Actualmente trabajo con herramientas de JAVASCRIPT (React - NodeJs)
-            </p>
-        </div>
-
-      
-    </section>
-  )
+        <p>
+          El primer contacto lo tuve con PYTHON, los primeros scripts, proyectos, trabajos etc... <br />
+          Actualmente trabajo con herramientas de JAVASCRIPT (React - NodeJs)
+        </p>
+      </div>
+    </motion.section>
+  );
 }
 
-export default Presentacion
+export default Presentacion;

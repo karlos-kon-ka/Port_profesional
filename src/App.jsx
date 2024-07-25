@@ -6,9 +6,11 @@ import Presentacion from './components/Presentacion'
 import Trabajos from './components/Trabajos'
 import Proyectos from './components/Proyectos'
 import SceneRedes from './components/SceneRedes'
+import BotonSubida from './components/BotonSubida'
+import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
@@ -22,6 +24,8 @@ function App() {
          <SceneRedes />
          <small>Puedes acceder ami Perfil en <a>Linkedin</a> para ver más de cerca en lo que trabajo. </small>
       </div>
+      <BotonSubida />
+      <Footer />
       
     </>
   )

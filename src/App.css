@@ -4,7 +4,7 @@ canvas {
 }
 
 .contenedor_model {
-  background: url('public/imgs/react.jpg');
+  background: url('public/imgs/react.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,15 +15,19 @@ canvas {
   background: radial-gradient(lightblue,white);
   box-shadow: 1px 1px 25px black;
   text-align: center;
+  margin-top: 15px;
 }
 
 
 .presentacion {
-  margin: 10px;
+  margin: 20px;
+  border: solid 0.2px rgb(94, 92, 92);
   padding: 10px;
   text-align: center;
+  color: #555;
   border-radius: 8px;
-  background: radial-gradient(lightblue,white);
+  background: rgb(232,244,246);
+  background: radial-gradient(circle, rgba(232,244,246,1) 12%, rgba(203,231,236,1) 25%, rgba(41,247,247,1) 63%, rgba(19,194,235,1) 91%);  
   transition: 2s ease;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.678);
 }
@@ -82,12 +86,28 @@ canvas {
 .card {
   padding: 2em;
 }
+.card img{
+  
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 12px;
+}
+a{
+  text-decoration: none ;
+}
 
 .trabajos {
-  margin: 10px;
+  
   padding: 10px;
 
   text-align: center;
+}
+.footer{
+  text-align: center;
+  margin: 20px;
+}
+.footerp{
+  margin-bottom: 10px;
 }
 .vermas {
   margin-top: 20px;
@@ -126,6 +146,28 @@ canvas {
 }
 
 
+.boton-subida {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.subida {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.subida:hover {
+  background-color: #555;
+  
+}
+
 
 
 
@@ -133,16 +175,20 @@ canvas {
 
 /* Media Query para pantallas de hasta 700px */
 @media (max-width: 700px) {
+  canvas {
+  width: 100%;
+  height: 30vh;
+}
   .presentacion p {
     font-size: 1.5rem;
   }
 
   .presentacion h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .traba-container {
-    grid-template-columns: 1fr; /* Una columna en dispositivos móviles */
+    grid-template-columns: 2fr; 
   }
 
   .pre-parrafos {
