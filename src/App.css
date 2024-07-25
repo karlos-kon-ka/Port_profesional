@@ -72,7 +72,8 @@ canvas {
 
 .pre-parrafos p {
   padding: 10px;
-  background-color: rgba(211, 184, 184, 0.89);
+  color: rgb(100, 97, 97);
+  background-color: rgba(102, 201, 226, 0.479);
   border-radius: 8px;
   font-size: 1.6rem;
   
@@ -82,6 +83,7 @@ canvas {
 
 .pre-parrafos p:hover {
   scale: 1.05;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.61);
 }
 
 .card {

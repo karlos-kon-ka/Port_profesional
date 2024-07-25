@@ -10,12 +10,13 @@ function Presentacion() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
     >
-      <h1>Carlos Pérez</h1>
-      <h2>FRONTEND DEVELOPER.</h2>
+      
       <br />
         <SceneLogo />
       <p>Gracias por estar aquí.</p>
       <div className='pre-parrafos'>
+      <h1>Carlos Pérez</h1>
+      <h2>FRONTEND DEVELOPER.</h2>
         <p>
           Empecé en el mundo SOFTWARE por la vida académica.
           Y a día de hoy la continuo con más de 1 año de experiencia como FREELANCER.

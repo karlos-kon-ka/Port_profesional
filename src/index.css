@@ -1,11 +1,19 @@
-body, html{
+body{
   font-family: "Work Sans", sans-serif;
   margin: 0;
   padding: 0;
   height: 100%;
   color: rgb(53, 52, 52);
   background: rgb(89,153,246);
-background: linear-gradient(13deg, rgba(89,153,246,1) 11%, rgba(153,135,255,1) 28%, rgba(223,242,255,1) 62%, rgba(194,194,194,1) 92%);
+  background-repeat: no-repeat; /* Para evitar que el fondo se repita */
+  background-size: cover;
+   background: linear-gradient(13deg, rgba(89,153,246,1) 11%, rgba(153,135,255,1) 28%, rgba(223,242,255,1) 62%, rgba(194,194,194,1) 92%);
   width: 100%;
   
+}
+a{
+  font-size: 1.5rem;
+  color: aliceblue;
+  text-shadow: 1px 1px 5px black;
+  margin: 5px;
 }

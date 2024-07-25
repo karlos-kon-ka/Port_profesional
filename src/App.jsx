@@ -22,7 +22,7 @@ function App() {
       <Proyectos />
       <div className='contenedor_model2'>
          <SceneRedes />
-         <small>Puedes acceder ami Perfil en <a>Linkedin</a> para ver más de cerca en lo que trabajo. </small>
+         <small>Puedes acceder a mí Perfil en <a href='https://www.linkedin.com/in/carlos-p-26034328b/'>Linkedin</a> para ver más de cerca en lo que trabajo. </small>
       </div>
       <BotonSubida />
       <Footer />
