@@ -1,6 +1,6 @@
 [
     {   
-        "img" : "./public/imgs/sheetspy.png",
+        "img" : "/imgs/sheetspy.png",
         "titulo": "Google sheets con Pyhton",
         "descripcion": "",
         "fuente": "Wallapop",
@@ -8,7 +8,7 @@
         "enlace": ""
     },
     {   
-        "img" : "./public/imgs/clonado.png",
+        "img" : "/imgs/clonado.png",
         "titulo": "Clonación de WEB",
         "descripcion": "Parra un trabajo de clase, el cliente me contacta para copiar una web para sus deberes.",
         "fuente": "Wallapop",
@@ -16,7 +16,7 @@
         "enlace": ""
     },
     {   
-        "img" : "",
+        "img" : "/imgs/scri.png",
         "titulo": "Revision Script",
         "descripcion": "Mantenimineto del Script mencionado de Google Sheets.",
         "fuente": "Wallapop",
@@ -24,7 +24,7 @@
         "enlace": ""
     },
     {   
-        "img" : "./public/imgs/ajax.jfif",
+        "img" : "/imgs/ajax.jfif",
         "titulo": "Implementación AJAX en Python ",
         "descripcion": "Cliente me contactó para revisar su proyecto TFG, al cual le ayude con la implementación dicha ",
         "fuente": "Wallapop",
@@ -32,7 +32,7 @@
         "enlace": ""
     },
     {   
-        "img" : "./public/imgs/powerpy.jfif",
+        "img" : "/imgs/powerpy.jfif",
         "titulo": "PowerPoints",
         "descripcion": "Me solicitan un script para poder crear Diapositivas adicionales, al powerpoint original, consistia en leer ciertas palabras y ir añadiendo la imagen asiganda a la palabra y crear las Diapositivas",
         "fuente": "Wallapop",
@@ -40,7 +40,7 @@
         "enlace": ""
     },
     {   
-        "img" : "./public/imgs/graficas.png",
+        "img" : "/imgs/graficas.png",
         "titulo": "Graficás de datos",
         "descripcion": "Alumno me pide ayuda para poder acabar trabajo de clase. En el que consiste en sacar gráficas de Excel",
         "fuente": "Wallapop",

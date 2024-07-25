@@ -1,5 +1,5 @@
 [  {   
-    "img" : "./public/imgs/sk8.jfif",
+    "img" : "/imgs/sk8.jfif",
     "titulo": "Skate Shop Online",
     "descripcion": "",
     
@@ -7,14 +7,14 @@
     "enlace": "https://github.com/karlos-kon-ka/SkateShopMurcia"
 },
 {   
-    "img" : "./public/imgs/three.png",
+    "img" : "/imgs/three.png",
     "titulo": "Fisicas en JavaScript ",
     "descripcion": ".",
     
     "fecha": "01/02/24",
     "enlace": ""
 },  {   
-    "img" : "./public/imgs/blogphp.jpg",
+    "img" : "/imgs/blogphp.jpg",
     "titulo": "Blog con PHP y MySQL",
     "descripcion": "Aun con conocimiento que no llegan ni a básicos consegui crear mi blog en PHP. Con CRUD, administracion de Usuarios y Registros.",
     
@@ -22,13 +22,13 @@
     "enlace": "https://github.com/karlos-kon-ka/Globalithium"
 },
 {   
-    "img" : "./public/imgs/mp3.png",
+    "img" : "/imgs/mp3.png",
     "titulo": "Mi MP3 DOWLOADER",
     "descripcion": "Me cree mi MP3 DOWLOADER aunqye un poco tarde en el tiempo, pero fue bueno poder hacerlo y utilizarlo cuando quiero.",
     "enlace": ""
 },
 {   
-    "img" : "./public/imgs/paypal.png",
+    "img" : "/imgs/paypal.png",
     "titulo": "Sistema de pago con PAYPAL",
     "descripcion": "Practicas sobre pasarela de pagos con PayPal.",
     "enlace": ""

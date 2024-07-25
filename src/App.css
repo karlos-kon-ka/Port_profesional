@@ -3,8 +3,9 @@ canvas {
   height: 50vh;
 }
 
+
 .contenedor_model {
-  background: url('public/imgs/react.png');
+  background: url('/imgs/react.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -139,7 +140,13 @@ a{
   ;
   scale: 1.1;
 }
+.pre-trabajos{
+  margin: 20px;
+}
 
+.pre-trabajos small{
+  font-size: 2rem;
+}
 
 .card p {
   font-size: 1.2rem;

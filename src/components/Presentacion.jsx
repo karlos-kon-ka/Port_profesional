@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import React from 'react';
+
+import SceneLogo from './SceneLogo'
 
 function Presentacion() {
   return (
@@ -12,6 +13,7 @@ function Presentacion() {
       <h1>Carlos Pérez</h1>
       <h2>FRONTEND DEVELOPER.</h2>
       <br />
+        <SceneLogo />
       <p>Gracias por estar aquí.</p>
       <div className='pre-parrafos'>
         <p>
