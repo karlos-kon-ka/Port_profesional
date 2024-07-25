@@ -1,0 +1,40 @@
+[  {   
+    "img" : "",
+    "titulo": "Skate Shop Online",
+    "descripcion": "",
+    
+    
+    "enlace": ""
+},
+{   
+    "img" : "",
+    "titulo": "Fisicas en JavaScript ",
+    "descripcion": ".",
+    
+    "fecha": "01/02/24",
+    "enlace": ""
+},  {   
+    "img" : "",
+    "titulo": "Anuncios de Auriculares",
+    "descripcion": "Hecho con Three fiber y animaciones de Scroll, simulando el anuncio de un producto.",
+    
+    
+    "enlace": ""
+},
+{   
+    "img" : "",
+    "titulo": "Mi MP3 DOWLOADER",
+    "descripcion": "Me cree mi MP3 DOWLOADER aunqye un poco tarde en el tiempo, pero fue bueno poder hacerlo y utilizarlo cuando quiero.",
+    
+    "fecha": "01/02/24",
+    "enlace": ""
+},
+{   
+    "img" : "",
+    "titulo": "Sistema dee pago con PAYPAL",
+    "descripcion": "Practicas sobre pasarela de pagos con PayPal.",
+    
+    "fecha": "01/02/24",
+    "enlace": ""
+}
+]

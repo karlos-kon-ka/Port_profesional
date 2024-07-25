@@ -1,0 +1,170 @@
+canvas {
+  width: 100%;
+  height: 50vh;
+}
+
+.contenedor_model {
+  background: url('public/imgs/react.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 25px black;
+}
+
+.contenedor_model2 {
+  background: radial-gradient(lightblue,white);
+  box-shadow: 1px 1px 25px black;
+  text-align: center;
+}
+
+
+.presentacion {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background: radial-gradient(lightblue,white);
+  transition: 2s ease;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.678);
+}
+
+
+
+
+
+.presentacion p {
+  font-size: 2rem;
+}
+
+.presentacion h1 {
+  font-size: 2rem;
+}
+
+.traba-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.534);
+  border: solid 0.5px white;
+  box-shadow: 1px 1px 10px white;
+  border-radius: 12px;
+}
+
+.traba-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 10px;
+}
+.pre-parrafos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 10px;
+}
+
+.pre-parrafos p {
+  padding: 10px;
+  background-color: rgba(211, 184, 184, 0.89);
+  border-radius: 8px;
+  font-size: 1.6rem;
+  
+  transition: 0.5s scale;
+
+}
+
+.pre-parrafos p:hover {
+  scale: 1.05;
+}
+
+.card {
+  padding: 2em;
+}
+
+.trabajos {
+  margin: 10px;
+  padding: 10px;
+
+  text-align: center;
+}
+.vermas {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 1s ease-in-out;
+}
+
+.vermas:hover {
+  background-color: #0056b3;
+}
+.card {
+
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px;
+  background-color: #f9f9f9;
+  transition: 0.7s;
+}
+
+.card:hover {
+  background-color:
+    #e6e6e6;
+  ;
+  scale: 1.1;
+}
+
+
+.card p {
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+/* Media Query para pantallas de hasta 700px */
+@media (max-width: 700px) {
+  .presentacion p {
+    font-size: 1.5rem;
+  }
+
+  .presentacion h1 {
+    font-size: 1.5rem;
+  }
+
+  .traba-container {
+    grid-template-columns: 1fr; /* Una columna en dispositivos móviles */
+  }
+
+  .pre-parrafos {
+    grid-template-columns: 1fr; /* Una columna en dispositivos móviles */
+  }
+
+  .pre-parrafos p {
+    font-size: 1.15rem;
+    padding: 8px;
+  }
+
+  .vermas {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .card {
+    padding: 1em;
+    margin: 8px;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,53 @@
+[
+    {   
+        "img" : "",
+        "titulo": "Google sheets con Pyhton",
+        "descripcion": "",
+        "fuente": "Wallapop",
+        "fecha": "12/02/24",
+        "enlace": ""
+    },
+    {   
+        "img" : "",
+        "titulo": "Clonación de WEB",
+        "descripcion": "Parra un trabajo de clase, el cliente me contacta para copiar una web para sus deberes.",
+        "fuente": "Wallapop",
+        "fecha": "01/02/24",
+        "enlace": ""
+    },
+    {   
+        "img" : "",
+        "titulo": "Revision Script",
+        "descripcion": "Mantenimineto del Script mencionado de Google Sheets.",
+        "fuente": "Wallapop",
+        "fecha": "02/04/24",
+        "enlace": ""
+    },
+    {   
+        "img" : "",
+        "titulo": "Implementación AJAX en Python ",
+        "descripcion": "Cliente me contactó para revisar su proyecto TFG, al cual le ayude con la implementación dicha ",
+        "fuente": "Wallapop",
+        "fecha": "14/05/24",
+        "enlace": ""
+    },
+    {   
+        "img" : "",
+        "titulo": "PowerPoints",
+        "descripcion": "Me solicitan un script para poder crear Diapositivas adicionales, al powerpoint original, consistia en leer ciertas palabras y ir añadiendo la imagen asiganda a la palabra y crear las Diapositivas",
+        "fuente": "Wallapop",
+        "fecha": "15/06/24",
+        "enlace": ""
+    },
+    {   
+        "img" : "",
+        "titulo": "Graficás de datos",
+        "descripcion": "",
+        "fuente": "",
+        "fecha": "",
+        "enlace": ""
+    }
+   
+    
+
+]
